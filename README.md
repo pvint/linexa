@@ -1,3 +1,5 @@
+NOTE: This is WIP! Non-functional as yet.
+
 Linexa - Simple Philips Hue emulator for accepting commands from an Amazon Echo to control whatever from a Linux device.
 
 Primary purpose: Control LED lighting on a Raspberry Pi using voice commands to Alexa without using any heavy libraries or applications.
@@ -14,3 +16,8 @@ I summary, this daemon should:
 
 
 Note: Totally inspired by https://github.com/bwssytems/ha-bridge  This thing is really really great! My main motivation for doing this is that ha-bridge relies on using the web interface to make config changes and that doesn't tend to work for me.
+
+
+Planned dependancies:
+- http://pupnp.sourceforge.net/ - UPNP library. I haven't tested yet, but it looks good.
+- https://github.com/jtilly/inih - Simple config file reader. Every other one I see looks too heavy and complex and I was about to roll my own, but this looks simply perfect.
